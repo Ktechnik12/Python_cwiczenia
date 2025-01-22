@@ -61,7 +61,7 @@ def NajlepszyRuch(tablica):
                 tablica[i][j] = "X"
                 wynik = MiniMax(tablica, 0, False)
                 tablica[i][j] = " "
-                print(wynik,"i", i, "j", j)
+                #print(wynik,"i", i, "j", j)
                 if wynik > NajlepszyWynik:
                     NajlepszyWynik = wynik
                     ruch = (i, j)
