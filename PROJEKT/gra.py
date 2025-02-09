@@ -2,6 +2,8 @@ import math
 import tkinter as tk
 from tkinter import messagebox
 
+
+
 def SprawdzWygrana(tablica):
     for i in range(3):
         if tablica[i][0] == tablica[i][1] == tablica[i][2] and tablica[i][0] != " ":
